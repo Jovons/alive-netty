@@ -1,0 +1,379 @@
+2022-05-16 18:24:33
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (25.321-b07 mixed mode):
+
+"nioEventLoopGroup-2-14" #29 prio=10 os_prio=2 tid=0x0000019e4b4ad800 nid=0x1c60 runnable [0x00000065aa2fe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076befd628> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076bef9b80> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076bef9a30> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:814)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"nioEventLoopGroup-2-13" #28 prio=10 os_prio=2 tid=0x0000019e4b4af000 nid=0x25fc runnable [0x00000065aa1ff000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076bef62f8> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076bef2850> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076bef2700> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:814)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"nioEventLoopGroup-2-12" #27 prio=10 os_prio=2 tid=0x0000019e4b4b0800 nid=0x3ff8 runnable [0x00000065aa0fe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076beeefc8> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076beeb520> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076beeb3d0> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:814)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"nioEventLoopGroup-2-11" #26 prio=10 os_prio=2 tid=0x0000019e4b4b3000 nid=0x45cc runnable [0x00000065a9ffe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076bee7c98> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076bee41f0> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076bee40a0> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:814)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"nioEventLoopGroup-2-10" #25 prio=10 os_prio=2 tid=0x0000019e4b4b2000 nid=0x45a0 runnable [0x00000065a9efe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076bee0968> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076bedcee8> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076bedcd98> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:814)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"nioEventLoopGroup-2-9" #24 prio=10 os_prio=2 tid=0x0000019e4b4ad000 nid=0x36dc runnable [0x00000065a9dfe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076bed9660> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076bed5bb8> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076bed5a68> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:814)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"nioEventLoopGroup-2-8" #23 prio=10 os_prio=2 tid=0x0000019e4b182800 nid=0x2e18 runnable [0x00000065a9cfe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076bed2330> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076bece888> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076bece738> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:814)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"nioEventLoopGroup-2-7" #22 prio=10 os_prio=2 tid=0x0000019e4b182000 nid=0x4970 runnable [0x00000065a9bfe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076becb000> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076bec7558> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076bec7408> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:814)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"nioEventLoopGroup-2-6" #21 prio=10 os_prio=2 tid=0x0000019e4baf7000 nid=0x4fbc runnable [0x00000065a9afe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076bec3cd0> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076bec0228> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076bec00d8> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"nioEventLoopGroup-2-5" #20 prio=10 os_prio=2 tid=0x0000019e4baf6800 nid=0x3fb8 runnable [0x00000065a99fe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076bebc9a0> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076beb8f20> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076beb8dd0> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"nioEventLoopGroup-2-4" #19 prio=10 os_prio=2 tid=0x0000019e4baf5800 nid=0x3dc0 runnable [0x00000065a98fe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076beb5698> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076beb1bf0> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076beb1aa0> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"nioEventLoopGroup-2-3" #18 prio=10 os_prio=2 tid=0x0000019e4bafe000 nid=0x4258 runnable [0x00000065a97fe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076beae368> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076beaa8c0> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076beaa770> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"DestroyJavaVM" #17 prio=5 os_prio=0 tid=0x0000019e2e637800 nid=0x4db8 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"nioEventLoopGroup-2-2" #16 prio=10 os_prio=2 tid=0x0000019e4bad6800 nid=0x203c runnable [0x00000065a95fe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076bea7038> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076bea3590> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076bea3440> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"nioEventLoopGroup-2-1" #15 prio=10 os_prio=2 tid=0x0000019e4ba9f000 nid=0x34d0 runnable [0x00000065a94fe000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(WindowsSelectorImpl.java:296)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(WindowsSelectorImpl.java:278)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(WindowsSelectorImpl.java:159)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x000000076be998a8> (a io.netty.channel.nio.SelectedSelectionKeySet)
+	- locked <0x000000076be8c480> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x000000076be8c0d0> (a sun.nio.ch.WindowsSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:810)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:457)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+
+"RMI TCP Accept-0" #14 daemon prio=5 os_prio=0 tid=0x0000019e4b98d000 nid=0x5e4 runnable [0x00000065a92ff000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:127)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:535)
+	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:189)
+	- locked <0x000000076b727850> (a java.net.SocksSocketImpl)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545)
+	at java.net.ServerSocket.accept(ServerSocket.java:513)
+	at sun.management.jmxremote.LocalRMIServerSocketFactory$1.accept(LocalRMIServerSocketFactory.java:52)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:405)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
+	at java.lang.Thread.run(Thread.java:750)
+
+"RMI TCP Accept-1099" #13 daemon prio=5 os_prio=0 tid=0x0000019e4b989000 nid=0x2eb4 runnable [0x00000065a91fe000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:127)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:535)
+	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:189)
+	- locked <0x000000076b714cc8> (a java.net.SocksSocketImpl)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545)
+	at java.net.ServerSocket.accept(ServerSocket.java:513)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:405)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
+	at java.lang.Thread.run(Thread.java:750)
+
+"RMI TCP Accept-0" #12 daemon prio=5 os_prio=0 tid=0x0000019e4b549000 nid=0x16f4 runnable [0x00000065a90ff000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.DualStackPlainSocketImpl.accept0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:127)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:535)
+	at java.net.PlainSocketImpl.accept(PlainSocketImpl.java:189)
+	- locked <0x000000076b6e9b08> (a java.net.SocksSocketImpl)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545)
+	at java.net.ServerSocket.accept(ServerSocket.java:513)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(TCPTransport.java:405)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(TCPTransport.java:377)
+	at java.lang.Thread.run(Thread.java:750)
+
+"Service Thread" #10 daemon prio=9 os_prio=0 tid=0x0000019e49ece000 nid=0x1f10 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C1 CompilerThread3" #9 daemon prio=9 os_prio=2 tid=0x0000019e49ebf800 nid=0x4f54 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread2" #8 daemon prio=9 os_prio=2 tid=0x0000019e49ebc000 nid=0x285c waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread1" #7 daemon prio=9 os_prio=2 tid=0x0000019e49eae800 nid=0x3b44 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #6 daemon prio=9 os_prio=2 tid=0x0000019e49ea8000 nid=0x407c waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Attach Listener" #5 daemon prio=5 os_prio=2 tid=0x0000019e49e4d800 nid=0x2ed4 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Signal Dispatcher" #4 daemon prio=9 os_prio=2 tid=0x0000019e49ea2000 nid=0x3f9c runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" #3 daemon prio=8 os_prio=1 tid=0x0000019e49e20800 nid=0x4cf0 in Object.wait() [0x00000065a88ff000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000076b108ee8> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	- locked <0x000000076b108ee8> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+"Reference Handler" #2 daemon prio=10 os_prio=2 tid=0x0000019e49e1a000 nid=0x49f0 in Object.wait() [0x00000065a87fe000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000076b106c00> (a java.lang.ref.Reference$Lock)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	- locked <0x000000076b106c00> (a java.lang.ref.Reference$Lock)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+"VM Thread" os_prio=2 tid=0x0000019e49df3000 nid=0x970 runnable 
+
+"GC task thread#0 (ParallelGC)" os_prio=0 tid=0x0000019e2e64f000 nid=0x1254 runnable 
+
+"GC task thread#1 (ParallelGC)" os_prio=0 tid=0x0000019e2e651800 nid=0x109c runnable 
+
+"GC task thread#2 (ParallelGC)" os_prio=0 tid=0x0000019e2e653000 nid=0x1640 runnable 
+
+"GC task thread#3 (ParallelGC)" os_prio=0 tid=0x0000019e2e654800 nid=0x1b84 runnable 
+
+"GC task thread#4 (ParallelGC)" os_prio=0 tid=0x0000019e2e656800 nid=0x46ac runnable 
+
+"GC task thread#5 (ParallelGC)" os_prio=0 tid=0x0000019e2e657800 nid=0x21a4 runnable 
+
+"GC task thread#6 (ParallelGC)" os_prio=0 tid=0x0000019e2e65b800 nid=0x2b2c runnable 
+
+"GC task thread#7 (ParallelGC)" os_prio=0 tid=0x0000019e2e65c800 nid=0x9c8 runnable 
+
+"VM Periodic Task Thread" os_prio=2 tid=0x0000019e4b990000 nid=0x502c waiting on condition 
+
+JNI global references: 339
+
